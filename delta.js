@@ -15,7 +15,7 @@ const crypto = require('crypto');
 
 class DeltaCLI {
     constructor() {
-        this.apiKey = 'your_gemini_api_key';
+        this.apiKey = process.env.GEMINI_API_KEY;
         this.baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
         this.model = 'gemini-2.0-flash'; // Default model
         this.conversationHistory = [];
