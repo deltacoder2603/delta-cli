@@ -1,0 +1,28 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Simple Todo Backend API with Express.js",
+  "main": "todo.js",
+  "scripts": {
+    "start": "node todo.js",
+    "dev": "nodemon todo.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "todo",
+    "api",
+    "express",
+    "backend"
+  ],
+  "author": "AI Coder",
+  "license": "MIT"
+}
